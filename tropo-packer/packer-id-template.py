@@ -31,7 +31,7 @@ keyname_param = t.add_parameter(
         Description='Name of an existing EC2 KeyPair to enable SSH access to \
 the instance',
         Type='AWS::EC2::KeyPair::KeyName',
-        Default='patrickpierson.us'
+        Default='keyname'
     ))
 
 amiid_param = t.add_parameter(
